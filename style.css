@@ -7,10 +7,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+	height: 100%;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	line-height: 30px;
 }
 
@@ -28,27 +29,31 @@ strong {
 }
 
 h2 {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
 main {
 	background-color: #666666;
 	border-top: solid #999999 8px;
+	height: 100%;
 }
 
 .card {
 	background-color: white;
 	border-bottom: solid #999999 8px;
+	padding-top: 1px;
+  margin-top: 64px;
 }
 
 .indented-heading{
 	background-color: #FFBF00;
 	border-bottom: solid #CC9900 8px;
 	max-width: 398px;
+	padding-top: 8px;
 }
 
 header .max-width-wrapper {
-	max-width: 415px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -59,6 +64,19 @@ main .max-width-wrapper {
 	margin-right: auto;
 }
 
-.card p,h2 {
+.card h2 {
 	padding: 16px 24px;
+	margin-left: -8px;
+}
+
+.card p {
+	padding: 0 24px;
+}
+
+.intro-chunk {
+	padding-left: 24px;
+}
+
+header p {
+	max-width: 415px;
 }
