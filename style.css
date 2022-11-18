@@ -9,4 +9,56 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+p {
+	font-size: 1rem;
+	line-height: 30px;
+}
+
+em {
+	font-style: normal;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+strong {
+	font-weight: 700;
+	color: #009966;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+main {
+	background-color: #666666;
+	border-top: solid #999999 8px;
+}
+
+.card {
+	background-color: white;
+	border-bottom: solid #999999 8px;
+}
+
+.indented-heading{
+	background-color: #FFBF00;
+	border-bottom: solid #CC9900 8px;
+	max-width: 398px;
+}
+
+header .max-width-wrapper {
+	max-width: 415px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main .max-width-wrapper {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card p,h2 {
+	padding: 16px 24px;
+}
